@@ -25,7 +25,7 @@ main(int argc, char **argv){
     MM_REG_STRUCT(emp_t);
     MM_REG_STRUCT(student_t);
     mm_print_registered_page_families();
-    /*
+
     emp_t *emp1 = XCALLOC(1, emp_t);
     emp_t *emp2 = XCALLOC(1, emp_t);
     emp_t *emp3 = XCALLOC(1, emp_t);
@@ -37,9 +37,8 @@ main(int argc, char **argv){
     mm_print_memory_usage(0);
     mm_print_block_usage();
 
-
     scanf("%d", &wait); 
-
+    
     XFREE(emp1);
     XFREE(emp3);
     XFREE(stud2);
@@ -54,6 +53,8 @@ main(int argc, char **argv){
     XFREE(stud1);
     printf(" \nSCENARIO 3 : *********** \n");
     mm_print_memory_usage(0);
-    mm_print_block_usage();*/
+    mm_print_block_usage();
+    
+    
     return 0; 
 }
